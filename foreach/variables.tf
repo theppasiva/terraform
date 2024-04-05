@@ -1,5 +1,5 @@
 variable "instance_names" {
-    type = list 
+    type = map 
     default = {
         mongodb = "t3.small"
         redis = "t2.micro"
